@@ -18,9 +18,40 @@ html  {
     background-color: blue;
 }
 
-.main  {
+.header-box  {
     width: 100%;
     height: 400px;
     margin: 10px 0;
     background-color: chartreuse;
+}
+
+.header-body  {
+    height: 80px;
+    background-color: cyan;
+}
+
+.main  {
+    background-color:blue;
+}
+
+.float  {
+    float: left;
+}
+
+[class*=col-]  {
+    height: 150px;
+    width: 100px;
+    background-color: orange;
+    border: 1px solid black
+}
+
+.clearfix::after  {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer  {
+    height: 50px;
+    background-color: blueviolet;
 }
